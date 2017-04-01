@@ -1,0 +1,30 @@
+{
+  "name": "maki-client-search",
+  "version": "0.0.0",
+  "description": "implements full-text search for the maki client",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martindale/maki-client-remote.git"
+  },
+  "keywords": [
+    "maki",
+    "client",
+    "framework",
+    "p2p",
+    "serverless",
+    "search"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/maki-client-remote/issues"
+  },
+  "homepage": "https://github.com/martindale/maki-client-remote#readme",
+  "dependencies": {
+    "lunr": "^0.7.2"
+  }
+}
